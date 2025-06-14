@@ -8,6 +8,8 @@
     <title>Apple - Macbook Pro</title>
 </head>
 <body>
+
+    <!-- Header  Section -->
     <header class="header">
         <div class="header__logo">
             <img src="./assets/Apple_logo_grey.png" alt="Apple logo grey" class="header__logo-image">
@@ -31,10 +33,10 @@
                         <a href="#" class="close">&times;</a>
                         <h2 class="basket-title">In Your Basket</h2>
                         <div class="basket-item">
-                            <img src="./assets/mbp.png" alt="Macbook Pro 2024">
+                            <img src="./assets/mbp.png" alt="Macbook Pro">
                             <div class="basket-item-details">
-                                <h3>Macbook Pro 2024</h3>
-                                <p>Price $1999</p>
+                                <h3>Macbook Pro</h3>
+                                <p>Price: $1599</p>
                             </div>
                         </div>
                     </div>
@@ -42,5 +44,54 @@
             </div>
         </div>
     </header>
+
+
+    <!-- Main Section -->
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section class="hero fade-in">
+            <div class="hero__image">
+                <img src="./assets/mbp.png" alt="Macbook Pro">
+            </div>
+            <div class="hero__text">
+                <h1 class="hero__title">Macbook Pro</h1>
+                <h2 class="hero__subtitle">Built for Apple Intelligence.</h2>
+                <p class="hero__description">MacBook Pro features the most advanced lineup of chips ever built for a pro laptop. Phenomenal single- and multithreaded CPU performance, faster unified memory, enhanced machine learning accelerators — the M4 family of chips gives you the kind of speed and capability you’ve never thought possible. And the powerful Neural Engine makes AI tasks like image upscaling and video caption creation as well as on-device Apple Intelligence features fly.</p>
+                <p class="hero__price">From $1599</p>
+                <div class="hero__buttons">
+                    <a href="#order" class="hero__order-button">Order Now</a>
+                    <a href="#videoModal" class="hero__play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specs Section -->
+        <section class="specs fade-in">
+            <div class="spec">
+                <h3 class="spec__title">3.4x</h3>
+                <p class="spec__description">faster overall performance than M1</p>
+            </div>
+            <div class="spec">
+                <h3 class="spec__title">3x</h3>
+                <p class="spec__description">faster overall performance than M1 Pro</p>
+            </div>
+            <div class="spec">
+                <h3 class="spec__title">3.5x </h3>
+                <p class="spec__description">faster overall performance than M1 Max</p>
+            </div>
+        </section>
+
+
+        <!-- Video Modal Structure -->
+        <div id="videoModal" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <iframe width="1227" height="690" src="https://www.youtube.com/embed/IHTT_7AjoU8" title="The new MacBook Pro | Built for Apple Intelligence | Apple" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
