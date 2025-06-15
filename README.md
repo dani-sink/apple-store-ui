@@ -1,6 +1,6 @@
 # Apple Store UI
 
-This is a responsive clone of the Apple Store landing page, built with HTML, CSS, and JavaScript. The design focuses on capturing the sleek, modern aesthetic of Apple's official website, with interactive elements and clean visual structure.
+This is a responsive clone of the Apple Store landing page, built with HTML and CSS. The design focuses on capturing the sleek, modern aesthetic of Apple's official website, with interactive elements and clean visual structure.
 
 ## 🌐 Live Demo
 
